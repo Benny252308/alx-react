@@ -2,8 +2,6 @@
 
 ![man](readme-pic.jpg)
 
-![React](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/12/79df527164ac54981039.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220712T190947Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=b318e988ce4117d113790b8cba85b64ad6cf66057ba17719ac57cb483fc61564)
-
 ## Resources
 
 **Read or watch:**
