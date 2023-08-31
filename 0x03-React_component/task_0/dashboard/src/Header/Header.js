@@ -1,16 +1,14 @@
 import React from "react";
-import logo from "../assets/holberton-logo.jpeg";
-import "./Header.css";
+import Header from "./Header";
+import { shallow } from "enzyme";
 
-function Header() {
-  return (
-    <>
-      <div className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>School dashboard</h1>
-      </div>
-    </>
-  );
-}
-
-export default Header;
+const wrapper = shallow(<Header />);
+describe("Header component tests", () => {
+  it("render without crashing", () => {
+    expect(wrapper.exists()).toEqual(true);
+  });
+  it("should render a h1", () => {
+    expect(wrapper.exists("img")).toEqual(true);
+    expect(wrapper.containsMatchingElement(<h1>School dashboard</h1>)).toEqual(true);
+  });
+});
